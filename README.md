@@ -1,3 +1,18 @@
+This project demonstrates the concepts of Forward Propagation and Backward Propagation in deep learning. These two processes are essential in training neural networks efficiently.
+
+Forward Propagation
+Input Layer → Receives the input data.
+Hidden Layers → Apply weights, biases, and activation functions to transform the data.
+Output Layer → Produces the final prediction.
+The goal of forward propagation is to pass input through the network and compute the output.
+
+Backward Propagation
+After getting the output, we compare it to the actual values and calculate the error. Backward Propagation helps adjust the weights to minimize this error.
+
+Steps:
+Compute the Loss → Compare predicted output with actual labels.
+Calculate Gradients → Determine how much each weight contributes to the error.
+Update Weights → Adjust weights to improve future predictions.
 Forward Propagation (Computing Predictions)
 Forward propagation is the process of passing input data through the network to compute the predicted output.
 Z =wx+b
